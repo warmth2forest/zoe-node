@@ -1,0 +1,38 @@
+{
+  "name": "zoe-node",
+  "version": "1.0.0",
+  "description": "基于 Koa2 的 node 框架",
+  "keywords": [
+    "web",
+    "node",
+    "http",
+    "application",
+    "framework",
+    "middleware",
+    "koa",
+    "zoe"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app/index.js",
+    "nodemon": "nodemon app/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/warmth2forest/zoe-node.git"
+  },
+  "author": "xiaozixiang <johnxiao675@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/warmth2forest/zoe-node/issues"
+  },
+  "homepage": "https://github.com/warmth2forest/zoe-node",
+  "dependencies": {
+    "koa": "^2.5.0",
+    "koa-bodyparser": "^4.2.0",
+    "koa-cors": "^0.0.16",
+    "koa-logger": "^3.1.0",
+    "koa-router": "^7.4.0"
+  }
+}
